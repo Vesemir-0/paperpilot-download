@@ -11,22 +11,18 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <https://raw.githubusercontent.com/Vesemir-0/paperpilot-download/main/Payload.ipa>
-                    <string>https://your-server.com/path/to/your-app.ipa</string>
+                    <string>https://raw.githubusercontent.com/Vesemir-0/paperpilot-download/main/Payload.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <com.hp.paperpilot>
-                <string>com.yourcompany.yourapp</string>
+                <string>com.hp.paperpilot</string>
                 <key>bundle-version</key>
-                <1.0>
                 <string>1.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <Paperpilot>
                 <string>Paperpilot</string>
             </dict>
         </dict>
