@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <!-- 这里必须替换成您上传的.ipa文件的完整HTTPS下载地址 -->
+                    <string>https://your-server.com/path/to/your-app.ipa</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <!-- 这里必须替换成您应用的Bundle ID -->
+                <string>com.yourcompany.yourapp</string>
+                <key>bundle-version</key>
+                <!-- 这里必须替换成您应用的版本号 -->
+                <string>1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <!-- 这里替换成您希望设备上显示的应用名称 -->
+                <string>您的应用名称</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
